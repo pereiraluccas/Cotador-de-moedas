@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgb(163, 38, 59);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.titulo{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.informacoes{
+    /* border: 1px solid blue; */
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.moedas{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    align-items: center;
+    text-align: center;
+
+}
+.valores{
+    /* border: 1px solid orange; */
+    height: 100%;
+    width: 300px;
+
+}
+select{
+    width: 150px;
+}
+button{
+    width: 100px;
+    background-color: green;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 12px;
+}
+button:hover{
+    width: 102px;
+    height: 41px;
+    margin-top: 4px;
+    font-size: 13px;
+}
+.bandeira{
+    /* border: 1px solid white; */
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.dados{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.cotacao-atual{
+    /* border: 1px solid blue; */
+    width: 49%;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data-cotacao{
+    /* border: 1px solid red; */
+    width: 49%;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.max-dia{
+    /* border: 1px solid rgb(161, 1, 148); */
+    width: 49%;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.min-dia{
+    /* border: 1px solid orangered; */
+    width: 49%;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dados-cotacao-atual{
+    background-color: whitesmoke;
+    height: 25%;
+    width: 65%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dados-data-cotacao{
+    background-color: whitesmoke;
+    height: 35%;
+    width: 75%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dados-max-dia{
+    background-color: whitesmoke;
+    height: 25%;
+    width: 65%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dados-min-dia{
+    background-color: whitesmoke;
+    height: 25%;
+    width: 65%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

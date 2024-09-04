@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotador de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="titulo"><h1>Cotação de Moedas</h1></div>
+        <div class="informacoes">
+            <div class="moedas">
+                <h2>Escolha uma moeda</h2><br>
+                <select id="valoresMoedas">
+                    <option value="USD">Dólar Americano</option>
+                    <option value="EUR">Euro</option>
+                    <option value="GBP">Libra Esterlina</option>
+                    <option value="ARS">Peso Argentino</option>
+                    <option value="CAD">Dolar Canadense</option>
+                    <option value="CHF">Franco Suiço</option>
+                    <option value="BTC">Bitcoin</option>
+                    <option value="ETH">Ethereum</option>
+                </select>
+                <br>
+                <button id="botao">Ver cotações</button>
+            </div>
+            <div class="valores">
+                <div class="bandeira" id="bandeira">
+                    <img id="foto" src="imagens/icons8-cifrão-48.png">
+                </div>
+                <div class="dados">
+                    <div class="cotacao-atual">
+                        <h4>Cotação Atual</h3>
+                        <div class="dados-cotacao-atual" id="dados-cotacao"></div>
+                    </div>
+                    <div class="data-cotacao">
+                        <h4>Data da Cotação</h4>
+                        <div class="dados-data-cotacao" id="dados-data-cotacao"></div>
+                    </div>
+                    <div class="max-dia">
+                        <h4>Máxima do Dia</h4>
+                        <div class="dados-max-dia" id="dados-max-dia"></div>
+                    </div>
+                    <div class="min-dia">
+                        <h4>Mínima do Dia</h4>
+                        <div class="dados-min-dia" id="dados-min-dia"></div>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
